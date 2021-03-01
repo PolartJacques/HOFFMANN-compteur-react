@@ -9,7 +9,7 @@ class Today extends React.Component {
 
   render() {
     return(
-      <h1>hello world : {this.state.date.toLocaleDateString()}</h1>
+      <h1>hello world : {this.state.date.toUTCString()}</h1>
     );
   }
 }
